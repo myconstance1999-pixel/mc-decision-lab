@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "evaluation_scope": "Synthetic held-out task-intention decisions; no live-game validation.",
+  "models": {
+    "qwen3_1_7b": {
+      "name": "Qwen3-1.7B",
+      "status": "completed",
+      "sample_count": 300,
+      "baseline": {
+        "decision_accuracy": 0.01,
+        "joint_accuracy": 0.01,
+        "macro_f1": 0.019047619047619046,
+        "json_validity": 0.01,
+        "skill_accuracy": 0.05
+      },
+      "adapter": {
+        "decision_accuracy": 0.91,
+        "joint_accuracy": 0.91,
+        "macro_f1": 0.9144508737184184,
+        "json_validity": 0.9966666666666667,
+        "skill_accuracy": 0.8666666666666667
+      },
+      "adapter_url": "https://huggingface.co/oopbofficial/mc-decision-qwen3-1.7b-lora",
+      "report_url": "https://huggingface.co/oopbofficial/mc-decision-qwen3-1.7b-lora/blob/main/README.md",
+      "predictions_url": "https://huggingface.co/oopbofficial/mc-decision-qwen3-1.7b-lora/resolve/main/qwen3-1.7b_adapter.jsonl",
+      "error": null,
+      "diagnostics": {
+        "baseline": {
+          "decision_accuracy": 0.33,
+          "json_syntax_validity": 1.0
+        },
+        "adapter": {
+          "decision_accuracy": 0.91,
+          "json_syntax_validity": 1.0
+        }
+      }
+    },
+    "qwen2_5_7b": {
+      "name": "Qwen2.5-7B-Instruct",
+      "status": "completed",
+      "sample_count": 300,
+      "baseline": {
+        "decision_accuracy": 0.6033333333333334,
+        "joint_accuracy": 0.6033333333333334,
+        "macro_f1": 0.6616905104364651,
+        "json_validity": 0.7733333333333333,
+        "skill_accuracy": 0.7166666666666667
+      },
+      "adapter": {
+        "decision_accuracy": 0.91,
+        "joint_accuracy": 0.91,
+        "macro_f1": 0.9117778871289529,
+        "json_validity": 1.0,
+        "skill_accuracy": 0.8666666666666667
+      },
+      "adapter_url": "https://huggingface.co/oopbofficial/mc-decision-qwen2.5-7b-lora",
+      "report_url": "https://huggingface.co/oopbofficial/mc-decision-qwen2.5-7b-lora/blob/main/EVALUATION.md",
+      "predictions_url": "https://huggingface.co/oopbofficial/mc-decision-qwen2.5-7b-lora/resolve/main/adapter_predictions.jsonl",
+      "error": null,
+      "diagnostics": {
+        "baseline": {
+          "decision_accuracy": 0.72,
+          "json_syntax_validity": 0.8866666666666667
+        },
+        "adapter": {
+          "decision_accuracy": 0.91,
+          "json_syntax_validity": 1.0
+        }
+      }
+    }
+  },
+  "keyword_baseline": {
+    "name": "Fixed keyword rules",
+    "source_url": "https://github.com/myconstance1999-pixel/mc-decision-lab/blob/main/evaluation/keyword_metrics.json",
+    "sample_count": 300,
+    "decision_accuracy": 0.6666666666666666,
+    "decision_correct": 200,
+    "joint_accuracy": 0.6533333333333333,
+    "joint_correct": 196,
+    "macro_f1": 0.6889201671810368
+  }
+}
