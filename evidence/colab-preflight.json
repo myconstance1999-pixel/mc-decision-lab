@@ -1,0 +1,58 @@
+{
+  "max_length": 512,
+  "data_sha256": {
+    "train": "ef81811e471e28b47bd133327fd3495c644258ecd8cfa148d74afbb1f94d60dd",
+    "val": "c0f67877ac9807d57d2495b949b9595bb60a207857d2d70ec45fdf1decf89e8d",
+    "test": "dcce2afe36f5de36434b0210484d24b49b49754bff10ac0f5defc496d981d6b2"
+  },
+  "llamafactory_commit": "47d407d2aabbd52e11d4f34c7a06b9de3e2f0a77",
+  "passed": true,
+  "models": {
+    "qwen3-1.7b": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "lengths": {
+        "train": {
+          "count": 1000,
+          "max_tokens": 240,
+          "p95_tokens": 234
+        },
+        "val": {
+          "count": 160,
+          "max_tokens": 233,
+          "p95_tokens": 231
+        },
+        "test": {
+          "count": 300,
+          "max_tokens": 237,
+          "p95_tokens": 235
+        }
+      },
+      "mask_check": "all in-range examples"
+    },
+    "qwen2.5-7b": {
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "lengths": {
+        "train": {
+          "count": 1000,
+          "max_tokens": 236,
+          "p95_tokens": 230
+        },
+        "val": {
+          "count": 160,
+          "max_tokens": 229,
+          "p95_tokens": 227
+        },
+        "test": {
+          "count": 300,
+          "max_tokens": 233,
+          "p95_tokens": 231
+        }
+      },
+      "mask_check": "all in-range examples"
+    }
+  },
+  "overflow_count": 0,
+  "overflow_examples": []
+}

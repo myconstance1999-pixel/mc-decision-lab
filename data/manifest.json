@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "origin": "agent-authored controlled synthetic Minecraft-like task decisions; no real gameplay traces",
+  "seed": null,
+  "generation": "deterministic enumeration; family assignment precedes variation",
+  "challenge_records": 100,
+  "sha256": {
+    "train.json": "ef81811e471e28b47bd133327fd3495c644258ecd8cfa148d74afbb1f94d60dd",
+    "val.json": "c0f67877ac9807d57d2495b949b9595bb60a207857d2d70ec45fdf1decf89e8d",
+    "test.json": "dcce2afe36f5de36434b0210484d24b49b49754bff10ac0f5defc496d981d6b2"
+  },
+  "stats": {
+    "train": {
+      "examples": 1000,
+      "families": 25,
+      "decisions": {
+        "continue": 200,
+        "pause": 200,
+        "cancel": 200,
+        "replace_task": 200,
+        "clarify": 200
+      },
+      "max_input_characters": 185
+    },
+    "val": {
+      "examples": 160,
+      "families": 4,
+      "decisions": {
+        "continue": 32,
+        "pause": 32,
+        "cancel": 32,
+        "replace_task": 32,
+        "clarify": 32
+      },
+      "max_input_characters": 179
+    },
+    "test": {
+      "examples": 300,
+      "families": 25,
+      "decisions": {
+        "continue": 60,
+        "pause": 60,
+        "cancel": 60,
+        "replace_task": 60,
+        "clarify": 60
+      },
+      "max_input_characters": 185
+    }
+  }
+}

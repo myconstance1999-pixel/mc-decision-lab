@@ -1,0 +1,326 @@
+[
+  {
+    "family": "quoted_sign",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "chat_quote",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "silent_mining",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "pause_checkpoint",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "negated_cancel",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "danger_threshold",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "safe_threshold",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "pending_choice",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "pronoun_single_target",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "pronoun_competing_targets",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "recanted_order",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "story_quotation",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "question_about_cancel",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "positive_keep_task",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "indirect_temporary",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "indirect_permanent",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "cancel_future_only",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "cancel_other_agent",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "corrected_skill",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "delayed_replacement",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "literal_item_name",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "no_work_reference",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "resume_reaffirmed",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "instruction_and_quote",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "incomplete_new_goal",
+    "split": "train",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "written_test_command",
+    "split": "val",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "until_signal",
+    "split": "val",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "inventory_condition",
+    "split": "val",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "planned_vs_live",
+    "split": "val",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "roleplay_boundary",
+    "split": "test",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "known_noise_action",
+    "split": "test",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "condition_reversed",
+    "split": "test",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "latest_named_revision",
+    "split": "test",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "recipient_disambiguation",
+    "split": "test",
+    "origin": "agent_authored_seed_with_controlled_snapshots",
+    "count": 40
+  },
+  {
+    "family": "challenge_coded_bell",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_color_token",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_approval_scope",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_reject_alternative",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_remaining_quantity",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_permission_revocation",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_instruction_sender",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_scope_both_channels",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_question_vs_request",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_future_time_boundary",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_ordinal_choice",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_negation_scope",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_tool_output_boundary",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_world_task_distinction",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_completion_not_cancel",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_repeated_stop_semantics",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_agreement_after_correction",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_unsupported_action",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_conditional_else",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  },
+  {
+    "family": "challenge_target_skill_grounding",
+    "split": "test",
+    "origin": "independently_agent_authored_challenge",
+    "count": 5
+  }
+]

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172620">
+  <meta name="description" content="MC Decision Lab explores small-model adaptation for structured Minecraft task decisions. Open experiments, synthetic data, and transparent baseline comparisons.">
+  <title>MC Decision Lab — Small models. Clear intentions.</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23bbed7d' d='M16 2 30 10v12L16 30 2 22V10z'/%3E%3Cpath fill='%23243d31' d='m16 16 14-6v12l-14 8z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=privacy-v1">
+  <script src="app.js?v=privacy-v1" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="header">
+    <a class="brand" href="#" aria-label="MC Decision Lab home"><svg viewBox="0 0 34 36" aria-hidden="true"><path d="m17 1 16 9v17l-16 9-16-9V10z" fill="currentColor"/><path d="m1 10 16 9 16-9M17 19v17" fill="none" stroke="#172620" stroke-width="2"/></svg><span>MC DECISION <b>LAB</b><small>AN OPEN ADAPTATION EXPERIMENT</small></span></a>
+    <nav aria-label="Main navigation"><a href="#approach">Approach</a><a href="#explore">Explore</a><a href="#models">Models</a><a href="#results">Results</a></nav>
+    <a class="header-source" href="https://github.com/myconstance1999-pixel/mc-decision-lab">GitHub <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-topline"><span><i class="status-dot" aria-hidden="true"></i> BOTH ADAPTERS PUBLISHED / SYNTHETIC DATA</span><span>MC—DL / 001</span></div>
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">A DECISION LAYER FOR MINECRAFT AGENTS</p>
+          <h1 id="hero-title">Small models.<br>Clear <em>intentions.</em></h1>
+          <p class="hero-description">A player changes their mind. The world keeps moving.<br class="desktop-break"> Can a small model choose the right next step?</p>
+          <div class="hero-actions"><a class="button button-lime" href="#explore">Explore the decisions <span aria-hidden="true">↘</span></a><a class="text-link" href="#models">Meet the models <span aria-hidden="true">→</span></a></div>
+          <p class="hero-note">Task intention adaptation · Structured outputs · Open evaluation</p>
+        </div>
+        <div class="world" aria-label="Abstract voxel landscape representing observation, decision, and action" role="img">
+          <div class="world-grid"></div>
+          <span class="world-coordinate coordinate-a">X 128<br>Y 064<br>Z −032</span><span class="world-coordinate coordinate-b">STATE / 001<br>DECISION / ?</span>
+          <svg class="voxel-world" viewBox="0 0 600 500" aria-hidden="true">
+            <defs>
+              <g id="block"><path d="M0 0 42 24 0 48-42 24Z" fill="#c7dcac"/><path d="M-42 24 0 48v48l-42-24Z" fill="#47724e"/><path d="M0 48 42 24v48L0 96Z" fill="#2f513a"/><path d="M-42 24 0 48 42 24" fill="none" stroke="#183e2b" stroke-opacity=".22"/></g>
+              <g id="grass"><path d="M0 0 42 24 0 48-42 24Z" fill="#bbed7d"/><path d="M-42 24 0 48v48l-42-24Z" fill="#6f8e53"/><path d="M0 48 42 24v48L0 96Z" fill="#456a43"/><path d="m-28 26 14 8m7-15 14 8m7 0 14 8" stroke="#8ab759" stroke-width="2"/></g>
+              <g id="stone"><path d="M0 0 42 24 0 48-42 24Z" fill="#b1b4a2"/><path d="M-42 24 0 48v48l-42-24Z" fill="#69776b"/><path d="M0 48 42 24v48L0 96Z" fill="#485e50"/></g>
+              <g id="trunk"><path d="M0 0 17 10 0 20-17 10Z" fill="#d6a778"/><path d="M-17 10 0 20v75l-17-10Z" fill="#937452"/><path d="M0 20 17 10v75L0 95Z" fill="#6c5a41"/></g>
+              <g id="leaf"><path d="M0 0 48 28 0 56-48 28Z" fill="#bedb87"/><path d="M-48 28 0 56v49l-48-28Z" fill="#699d58"/><path d="M0 56 48 28v49L0 105Z" fill="#42734b"/></g>
+              <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
+            </defs>
+            <ellipse cx="303" cy="421" rx="200" ry="42" fill="#071b11" opacity=".35" filter="url(#shadow)"/>
+            <g class="island">
+              <use href="#block" x="300" y="230"/><use href="#block" x="258" y="254"/><use href="#block" x="342" y="254"/>
+              <use href="#block" x="216" y="278"/><use href="#block" x="300" y="278"/><use href="#block" x="384" y="278"/>
+              <use href="#stone" x="174" y="302"/><use href="#block" x="258" y="302"/><use href="#block" x="342" y="302"/><use href="#stone" x="426" y="302"/>
+              <use href="#stone" x="216" y="326"/><use href="#block" x="300" y="326"/><use href="#block" x="384" y="326"/><use href="#stone" x="258" y="350"/><use href="#stone" x="342" y="350"/>
+              <use href="#grass" x="300" y="182"/><use href="#grass" x="258" y="206"/><use href="#grass" x="342" y="206"/>
+              <use href="#grass" x="216" y="230"/><use href="#grass" x="300" y="230"/><use href="#grass" x="384" y="230"/>
+              <use href="#grass" x="174" y="254"/><use href="#grass" x="258" y="254"/><use href="#grass" x="342" y="254"/><use href="#grass" x="426" y="254"/>
+              <use href="#grass" x="216" y="278"/><use href="#grass" x="300" y="278"/><use href="#grass" x="384" y="278"/><use href="#grass" x="258" y="302"/><use href="#grass" x="342" y="302"/>
+              <path d="m258 222 84 48-42 24 42 24" fill="none" stroke="#e6efcf" stroke-width="14" stroke-linejoin="round" opacity=".75"/>
+              <use href="#trunk" x="225" y="142"/><use href="#leaf" x="225" y="93"/><use href="#leaf" x="225" y="51"/>
+              <use href="#trunk" x="371" y="132"/><use href="#leaf" x="371" y="83"/>
+              <g transform="translate(298 199)"><path d="M0 0 16 9 0 18-16 9Z" fill="#f4d7ae"/><path d="M-16 9 0 18v25l-16-9Z" fill="#c78c67"/><path d="M0 18 16 9v25L0 43Z" fill="#99704f"/><path d="m-18 39 18 10 18-10v39L0 89l-18-11Z" fill="#e0a16f"/><path d="M0 49v40l18-11V39Z" fill="#b27252"/><path d="m-17 78 14 8v23l-14-8Zm20 8 14-8v23l-14 8Z" fill="#233b32"/></g>
+              <g transform="translate(420 231)"><path d="m0 0 22 13L0 26l-22-13Z" fill="#e5c091"/><path d="m-22 13 22 13v29l-22-13Z" fill="#ae8057"/><path d="M0 26 22 13v29L0 55Z" fill="#7e6144"/><path d="m-22 28 22 13 22-13M0 26v29" fill="none" stroke="#493e2f" stroke-width="2"/><path d="m7 36 6-3v7l-6 3Z" fill="#f9d67d"/></g>
+            </g>
+            <g class="decision-marker"><path d="m302 119 22 12-22 13-22-13Z" fill="#bbed7d"/><path d="m280 131 22 13 22-13v25l-22 13-22-13Z" fill="none" stroke="#bbed7d"/><path d="M302 169v20" stroke="#bbed7d" stroke-dasharray="3 4"/></g>
+            <path d="m99 310-32 18 32 18m412-93 32 18-32 18" fill="none" stroke="#a5ba91" stroke-width="1" opacity=".5"/>
+          </svg>
+          <div class="world-caption"><span class="mini-cross" aria-hidden="true">+</span> Intent in. Decision out.<span class="caption-line"></span><span>01 — 03</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom"><p>BUILT AROUND A SMALL QUESTION</p><span>When the player’s intention changes,<br>does the agent’s next decision change with it?</span><a href="#approach" aria-label="Read the approach">↓</a></div>
+    </section>
+
+    <section class="section approach" id="approach" aria-labelledby="approach-title">
+      <div class="section-top"><span class="section-number">01 / THE APPROACH</span><span class="section-side">A NARROW JOB. AN INSPECTABLE OUTPUT.</span></div>
+      <div class="section-intro"><h2 id="approach-title">Understand the moment.<br>Choose what happens next.</h2><p>We adapt language models to a focused task: read the current task, environment, and recent dialogue, then select a structured decision for an external executor.</p></div>
+      <div class="pipeline">
+        <article><span class="step-id">INPUT / 01</span><div class="pipeline-icon input-icon" aria-hidden="true"><i></i><i></i><i></i></div><h3>A shared picture</h3><p>Task status and progress. Local environment. Recent dialogue. The player’s latest instruction.</p><span class="code-label">state + conversation</span></article>
+        <article><span class="step-id">DECISION / 02</span><div class="pipeline-icon decision-icon" aria-hidden="true"><i></i><i></i></div><h3>A precise next step</h3><p>Continue, pause, cancel, replace the task, or ask for clarification—with a skill when needed.</p><span class="code-label">{ decision, skill }</span></article>
+        <article><span class="step-id">EXECUTION / 03</span><div class="pipeline-icon execute-icon" aria-hidden="true"><i></i><i></i></div><h3>An external executor</h3><p>The surrounding agent owns game actions, cancellation, safety checks, and completion feedback.</p><span class="code-label">game actions + feedback</span></article>
+      </div>
+      <div class="boundary-note"><span aria-hidden="true">↳</span><p><strong>Experimental boundary</strong> This project evaluates text-based task decisions on synthetic data. Live Minecraft behavior, in-game task success, and end-to-end latency are unvalidated.</p></div>
+    </section>
+
+    <section class="section explore" id="explore" aria-labelledby="explore-title">
+      <div class="section-top"><span class="section-number">02 / INSIDE A DECISION</span><span class="section-side">EXPLORE THE TASK CONTRACT</span></div>
+      <div class="section-intro"><h2 id="explore-title">Same world.<br><em>A new intention.</em></h2><div><p>The wording alone is not enough. A useful decision depends on what is happening and what the player means.</p><p class="illustration-note"><span aria-hidden="true">◇</span> Illustrative scenario—not model output</p></div></div>
+      <div class="scenario-tabs" role="tablist" aria-label="Illustrative task decisions">
+        <button id="tab-pause" role="tab" aria-selected="true" aria-controls="scenario-panel" data-scenario="pause" tabindex="0"><span>01</span> Take a pause <b aria-hidden="true">↗</b></button>
+        <button id="tab-continue" role="tab" aria-selected="false" aria-controls="scenario-panel" data-scenario="continue" tabindex="-1"><span>02</span> Keep going <b aria-hidden="true">↗</b></button>
+        <button id="tab-cancel" role="tab" aria-selected="false" aria-controls="scenario-panel" data-scenario="cancel" tabindex="-1"><span>03</span> Call it off <b aria-hidden="true">↗</b></button>
+        <button id="tab-replace" role="tab" aria-selected="false" aria-controls="scenario-panel" data-scenario="replace" tabindex="-1"><span>04</span> Change direction <b aria-hidden="true">↗</b></button>
+      </div>
+      <div class="scenario-panel" id="scenario-panel" role="tabpanel" aria-labelledby="tab-pause" tabindex="0">
+        <div class="scenario-input"><div class="panel-label"><span><i></i> OBSERVED CONTEXT</span><span>INPUT</span></div><p class="scenario-state" id="scenario-state">Collecting oak logs · task running</p><div class="state-details" id="state-details"><span>Progress <b>6 / 16 logs</b></span><span>Environment <b>Daylight · forest</b></span></div><p class="dialogue-label">RECENT DIALOGUE</p><p class="recent-dialogue" id="recent-dialogue">“Gather sixteen oak logs for the cabin.”</p><div class="utterance"><span>PLAYER</span><blockquote id="scenario-utterance">“Wait here for a moment.”</blockquote></div></div>
+        <div class="scenario-output"><div class="panel-label"><span>AUTHORED TARGET</span><span aria-hidden="true">↗</span></div><pre aria-label="Illustrative target decision"><code id="scenario-decision">{<br>  <span class="json-key">"decision"</span>: <span class="json-value">"pause"</span>,<br>  <span class="json-key">"skill"</span>: <span class="json-null">null</span><br>}</code></pre><div class="scenario-reason"><span>WHY THIS DECISION</span><p id="scenario-reason">A temporary stop preserves the current task so it can be resumed later.</p></div><p class="example-disclaimer">Authored example · no inference runs in this page</p></div>
+      </div>
+    </section>
+
+    <section class="section models" id="models" aria-labelledby="models-title">
+      <div class="section-top"><span class="section-number">03 / THE MODEL LINEUP</span><span class="section-side">TWO SIZES. ONE DECISION CONTRACT.</span></div>
+      <div class="section-intro"><h2 id="models-title">Compact by design.<br>Measured by behavior.</h2><p>Both runs are complete. Each adapter is compared with its own baseline. MLX and PEFT backend differences prevent a controlled model-size conclusion; matching aggregate scores do not establish equal ability.</p></div>
+      <div class="model-grid">
+        <article class="model-card model-small" data-model="qwen3_1_7b"><div class="model-top"><span>EXPERIMENT / A</span><span class="model-status" data-status data-state="completed">Run completed</span></div><div class="model-visual" aria-hidden="true"><div class="cube cube-one"><i></i><b></b><em></em></div><span>1.7<span>B</span></span></div><h3>Qwen3-1.7B</h3><p class="model-purpose">Published · native MLX adapter</p><p class="model-description">Trained and evaluated on Apple silicon with MLX affine 4-bit weights. The frozen native MLX LoRA package requires MLX-LM; PEFT / Transformers loading is unverified.</p><dl><div><dt>Adapter format</dt><dd>Native MLX LoRA</dd></div><div><dt>Output</dt><dd>Decision + optional skill</dd></div><div><dt>Evidence</dt><dd data-evidence>300 held-out examples evaluated</dd></div></dl><div class="model-actions"><a data-adapter href="https://huggingface.co/oopbofficial/mc-decision-qwen3-1.7b-lora">Get MLX adapter <span aria-hidden="true">↗</span></a><span data-download-pending hidden>Adapter link unavailable <span aria-hidden="true">↗</span></span><a data-report href="https://huggingface.co/oopbofficial/mc-decision-qwen3-1.7b-lora/blob/main/README.md">Run report ↗</a></div><p class="model-error" data-error hidden></p></article>
+        <article class="model-card model-large" data-model="qwen2_5_7b"><div class="model-top"><span>EXPERIMENT / B</span><span class="model-status" data-status data-state="completed">Run completed</span></div><div class="model-visual" aria-hidden="true"><div class="cube cube-two"><i></i><b></b><em></em></div><span>7<span>B</span></span></div><h3>Qwen2.5-7B-Instruct</h3><p class="model-purpose">Published · PEFT adapter</p><p class="model-description">The completed Colab L4 run uses LlamaFactory / Transformers, NF4 quantization, and PEFT LoRA. The published PEFT adapter includes recorded results on 300 held-out examples and release evidence.</p><dl><div><dt>Adapter format</dt><dd>PEFT LoRA / NF4</dd></div><div><dt>Output</dt><dd>Decision + optional skill</dd></div><div><dt>Evidence</dt><dd data-evidence>300 held-out examples evaluated</dd></div></dl><div class="model-actions"><a data-adapter href="https://huggingface.co/oopbofficial/mc-decision-qwen2.5-7b-lora">Get PEFT adapter <span aria-hidden="true">↗</span></a><span data-download-pending hidden>Adapter link unavailable <span aria-hidden="true">↗</span></span><a data-report href="https://huggingface.co/oopbofficial/mc-decision-qwen2.5-7b-lora/blob/main/EVALUATION.md">Run report ↗</a></div><p class="model-error" data-error hidden></p></article>
+      </div>
+    </section>
+
+    <section class="section results" id="results" aria-labelledby="results-title">
+      <div class="section-top"><span class="section-number">04 / THE EVIDENCE</span><span class="section-side" id="results-release">RELEASE v0.1.0</span></div>
+      <div class="section-intro"><h2 id="results-title">Show the comparison.<br>Keep the gaps visible.</h2><div><p>Measurements come from the published MLX and PEFT releases. Select a model to inspect its own before/after comparison, with primary scores and exploratory diagnostics together.</p><p class="results-load-state" id="results-load-state" role="status">Loading result status…</p></div></div>
+      <aside class="keyword-baseline" aria-labelledby="keyword-title">
+        <div class="keyword-description"><span class="keyword-label">RULE-BASED REFERENCE</span><h3 id="keyword-title">Fixed keyword rules</h3><p>A deterministic baseline on the synthetic held-out set.</p><a href="https://github.com/myconstance1999-pixel/mc-decision-lab/blob/main/evaluation/keyword_metrics.json">Inspect measured results <span aria-hidden="true">↗</span></a></div>
+        <dl><div><dt>Strict decision accuracy</dt><dd><span id="keyword-decision">Pending</span><small id="keyword-decision-count">Awaiting artifact</small></dd></div><div><dt>Joint accuracy</dt><dd><span id="keyword-joint">Pending</span><small id="keyword-joint-count">Awaiting artifact</small></dd></div><div><dt>Macro F1</dt><dd><span id="keyword-f1">Pending</span><small>Across five decisions</small></dd></div></dl>
+      </aside>
+      <p class="model-comparison-label">LANGUAGE MODEL COMPARISON</p>
+      <div class="results-controls"><div class="model-selector" role="group" aria-label="Select model results"><button type="button" data-result-model="qwen3_1_7b" aria-pressed="true">Qwen3 · 1.7B</button><button type="button" data-result-model="qwen2_5_7b" aria-pressed="false">Qwen2.5 · 7B</button></div><p id="sample-count">Held-out samples: pending</p></div>
+      <div class="table-wrap"><table><caption class="sr-only" id="results-caption">Qwen3-1.7B baseline versus adapter evaluation</caption><thead><tr><th scope="col">MEASURE</th><th scope="col">ORIGINAL MODEL</th><th scope="col">TASK ADAPTER</th><th scope="col">CHANGE</th></tr></thead><tbody id="results-body"><tr><th scope="row">Strict decision accuracy <small>Invalid schema counts as incorrect</small></th><td>Pending</td><td>Pending</td><td>—</td></tr><tr><th scope="row">Joint accuracy <small>Decision and skill both correct</small></th><td>Pending</td><td>Pending</td><td>—</td></tr><tr><th scope="row">Macro F1 <small>Balance across decision classes</small></th><td>Pending</td><td>Pending</td><td>—</td></tr><tr><th scope="row">Schema validity <small>Valid decision / skill contract</small></th><td>Pending</td><td>Pending</td><td>—</td></tr><tr><th scope="row">Skill accuracy <small>All 60 gold replacement examples</small></th><td>Pending</td><td>Pending</td><td>—</td></tr></tbody></table></div>
+      <div class="boundary-note"><span aria-hidden="true">↳</span><p><strong>Interpreting the 1.7B result</strong> Strict accuracy improved from 1% to 91%; decision-only accuracy improved from 33% to 91%. Schema validity rose from 1% to 99.67%, while JSON syntax stayed at 100%. The baseline returned a non-null skill for 297 nonreplacement decisions. Its low strict score therefore combines contract failures with decision errors; the gain combines schema adaptation and improved choice.</p></div>
+      <div class="boundary-note"><span aria-hidden="true">↳</span><p><strong>Interpreting the 7B result</strong> Strict accuracy improved from 60.33% to 91%; decision-only accuracy improved from 72% to 91%. Schema validity rose from 77.33% to 100%, and JSON syntax from 88.67% to 100%. The matching 91% aggregate adapter scores do not isolate model size or establish equivalent ability across these different backends.</p></div>
+      <div class="diagnostics-section" aria-labelledby="diagnostics-title">
+        <h3 class="model-comparison-label" id="diagnostics-title">EXPLORATORY DIAGNOSTICS</h3>
+        <p class="diagnostics-note" id="diagnostics-note">Post hoc diagnostics · full 300-example denominator · no inferred labels or null repairs. These measures do not replace the primary scores.</p>
+        <div class="table-wrap"><table aria-describedby="diagnostics-note"><caption class="sr-only" id="diagnostics-caption">Qwen3-1.7B exploratory baseline versus adapter diagnostics</caption><thead><tr><th scope="col">DIAGNOSTIC</th><th scope="col">ORIGINAL MODEL</th><th scope="col">TASK ADAPTER</th></tr></thead><tbody id="diagnostics-body"><tr><th scope="row">Decision choice, ignoring skill-schema errors</th><td>Pending</td><td>Pending</td></tr><tr><th scope="row">JSON syntax validity</th><td>Pending</td><td>Pending</td></tr></tbody></table></div>
+      </div>
+      <div class="results-footnote"><p><span aria-hidden="true">↳</span> Controlled / challenge joint accuracy: 1.7B adapter 100% / 73%; 7B base 65% / 51% → adapter 98% / 77%. Each test has 200 controlled variants and 100 separately agent-authored challenges. All data are synthetic; live-game success remains unvalidated.</p><a href="results.json">View result data <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="release-section" aria-labelledby="release-title"><div><p class="eyebrow">OPEN THE EXPERIMENT</p><h2 id="release-title">Follow the work.<br>Inspect every step.</h2><p>Data, training, evaluation, and release artifacts belong together.<br>Start with the repository or open the training notebook.</p></div><div class="release-links"><a href="https://github.com/myconstance1999-pixel/mc-decision-lab"><span><small>01 / SOURCE</small>Explore the repository</span><b aria-hidden="true">↗</b></a><a href="https://github.com/myconstance1999-pixel/mc-decision-lab/blob/main/notebooks/train_colab.ipynb"><span><small>02 / TRAINING</small>Open the Colab notebook</span><b aria-hidden="true">↗</b></a><a href="https://github.com/myconstance1999-pixel/mc-decision-lab/releases"><span><small>03 / ARTIFACTS</small>Browse releases</span><b aria-hidden="true">↗</b></a></div></section>
+  </main>
+  <footer><div class="footer-main"><a class="footer-brand" href="#">MC DECISION LAB <span aria-hidden="true">◇</span></a><p>A small-model task-intention adaptation experiment.<br>Independent project. Not affiliated with Mojang or Microsoft.</p><a href="#" class="back-top">Back to top ↑</a></div><div class="source-note"><p>7B training stack: <a href="https://github.com/hiyouga/LlamaFactory/tree/47d407d2aabbd52e11d4f34c7a06b9de3e2f0a77">LlamaFactory <code>47d407d</code></a> · 1.7B: MLX-LM 0.32.2 · Agent reference: <a href="https://github.com/blueziii/dsh-mc-agent/tree/f081451960ceebcd7649a3eddbfdccdeba8d4cf6">dsh-mc-agent <code>f081451</code></a></p><span>BUILT FOR INSPECTION</span></div></footer>
+  <noscript><p class="noscript-note">JavaScript is disabled. The static example remains illustrative; open <a href="results.json">results.json</a> for evaluation status.</p></noscript>
+</body>
+</html>

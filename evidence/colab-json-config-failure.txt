@@ -1,0 +1,35 @@
+Starting qwen2.5-7b: train
+/usr/local/lib/python3.12/dist-packages/jieba/__init__.py:44: SyntaxWarning: invalid escape sequence '\.'
+  re_han_default = re.compile("([\u4E00-\u9FD5a-zA-Z0-9+#&\._%\-]+)", re.U)
+/usr/local/lib/python3.12/dist-packages/jieba/__init__.py:46: SyntaxWarning: invalid escape sequence '\s'
+  re_skip_default = re.compile("(\r\n|\s)", re.U)
+/usr/local/lib/python3.12/dist-packages/jieba/finalseg/__init__.py:78: SyntaxWarning: invalid escape sequence '\.'
+  re_skip = re.compile("([a-zA-Z0-9]+(?:\.\d+)?%?)")
+Traceback (most recent call last):
+  File "/usr/local/bin/llamafactory-cli", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/llamafactory/cli.py", line 24, in main
+    launcher.launch()
+  File "/usr/local/lib/python3.12/dist-packages/llamafactory/launcher.py", line 157, in launch
+    run_exp()
+  File "/usr/local/lib/python3.12/dist-packages/llamafactory/train/tuner.py", line 164, in run_exp
+    args = read_args(args)
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/llamafactory/hparams/parser.py", line 129, in read_args
+    dict_config = OmegaConf.create(json.load(Path(sys.argv[1]).absolute()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+                 ^^^^^^^
+AttributeError: 'PosixPath' object has no attribute 'read'
+Traceback (most recent call last):
+  File "/content/mc-decision-lab/training/run.py", line 520, in <module>
+    main()
+  File "/content/mc-decision-lab/training/run.py", line 512, in main
+    train(args.root, args.model, args)
+  File "/content/mc-decision-lab/training/run.py", line 413, in train
+    run_logged(["llamafactory-cli", "train", str(config_path)], root, run_dir, args)
+  File "/content/mc-decision-lab/training/run.py", line 452, in run_logged
+    raise subprocess.CalledProcessError(process.returncode, command)
+subprocess.CalledProcessError: Command '['llamafactory-cli', 'train', '/content/mc-decision-lab/runs/qwen2.5-7b/resolved_config.json']' returned non-zero exit status 1.

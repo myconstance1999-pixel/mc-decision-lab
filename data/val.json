@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "val.written_test_command.continue.0.0",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"5%\"},\"environment\":\"玩家在编写教程；时段：清晨\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"示例：取消钓鱼任务。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.continue.0.1",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"25%\"},\"environment\":\"玩家在编写教程；时段：上午\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"示例：取消钓鱼任务。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.continue.0.2",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"50%\"},\"environment\":\"玩家在编写教程；时段：午后\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"示例：取消钓鱼任务。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.continue.0.3",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"75%\"},\"environment\":\"玩家在编写教程；时段：傍晚\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"示例：取消钓鱼任务。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.continue.1.0",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"5%\"},\"environment\":\"玩家在编写教程；时段：清晨\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"教程里写“暂停”，你正常钓。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.continue.1.1",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"25%\"},\"environment\":\"玩家在编写教程；时段：上午\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"教程里写“暂停”，你正常钓。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.continue.1.2",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"50%\"},\"environment\":\"玩家在编写教程；时段：午后\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"教程里写“暂停”，你正常钓。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.continue.1.3",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"75%\"},\"environment\":\"玩家在编写教程；时段：傍晚\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"教程里写“暂停”，你正常钓。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.pause.0.0",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"5%\"},\"environment\":\"玩家在编写教程；时段：清晨\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"现在是现场指令：暂停钓鱼，稍后恢复。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.pause.0.1",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"25%\"},\"environment\":\"玩家在编写教程；时段：上午\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"现在是现场指令：暂停钓鱼，稍后恢复。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.pause.0.2",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"50%\"},\"environment\":\"玩家在编写教程；时段：午后\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"现在是现场指令：暂停钓鱼，稍后恢复。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.pause.0.3",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"75%\"},\"environment\":\"玩家在编写教程；时段：傍晚\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"现在是现场指令：暂停钓鱼，稍后恢复。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.pause.1.0",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"5%\"},\"environment\":\"玩家在编写教程；时段：清晨\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"先收竿等我一下。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.pause.1.1",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"25%\"},\"environment\":\"玩家在编写教程；时段：上午\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"先收竿等我一下。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.pause.1.2",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"50%\"},\"environment\":\"玩家在编写教程；时段：午后\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"先收竿等我一下。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.pause.1.3",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"75%\"},\"environment\":\"玩家在编写教程；时段：傍晚\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"先收竿等我一下。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.cancel.0.0",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"5%\"},\"environment\":\"玩家在编写教程；时段：清晨\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"教程结束了，实际取消钓鱼。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.cancel.0.1",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"25%\"},\"environment\":\"玩家在编写教程；时段：上午\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"教程结束了，实际取消钓鱼。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.cancel.0.2",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"50%\"},\"environment\":\"玩家在编写教程；时段：午后\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"教程结束了，实际取消钓鱼。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.cancel.0.3",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"75%\"},\"environment\":\"玩家在编写教程；时段：傍晚\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"教程结束了，实际取消钓鱼。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.cancel.1.0",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"5%\"},\"environment\":\"玩家在编写教程；时段：清晨\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"鳕鱼不钓了，任务作废。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.cancel.1.1",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"25%\"},\"environment\":\"玩家在编写教程；时段：上午\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"鳕鱼不钓了，任务作废。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.cancel.1.2",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"50%\"},\"environment\":\"玩家在编写教程；时段：午后\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"鳕鱼不钓了，任务作废。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.cancel.1.3",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"75%\"},\"environment\":\"玩家在编写教程；时段：傍晚\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"鳕鱼不钓了，任务作废。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.replace_task.0.0",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"5%\"},\"environment\":\"玩家在编写教程；时段：清晨\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"现在改为把鱼放进储物箱。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"store_items\"}"
+  },
+  {
+    "id": "val.written_test_command.replace_task.0.1",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"25%\"},\"environment\":\"玩家在编写教程；时段：上午\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"现在改为把鱼放进储物箱。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"store_items\"}"
+  },
+  {
+    "id": "val.written_test_command.replace_task.0.2",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"50%\"},\"environment\":\"玩家在编写教程；时段：午后\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"现在改为把鱼放进储物箱。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"store_items\"}"
+  },
+  {
+    "id": "val.written_test_command.replace_task.0.3",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"75%\"},\"environment\":\"玩家在编写教程；时段：傍晚\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"现在改为把鱼放进储物箱。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"store_items\"}"
+  },
+  {
+    "id": "val.written_test_command.replace_task.1.0",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"5%\"},\"environment\":\"玩家在编写教程；时段：清晨\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"钓鱼撤掉，开始存放背包鱼。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"store_items\"}"
+  },
+  {
+    "id": "val.written_test_command.replace_task.1.1",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"25%\"},\"environment\":\"玩家在编写教程；时段：上午\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"钓鱼撤掉，开始存放背包鱼。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"store_items\"}"
+  },
+  {
+    "id": "val.written_test_command.replace_task.1.2",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"50%\"},\"environment\":\"玩家在编写教程；时段：午后\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"钓鱼撤掉，开始存放背包鱼。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"store_items\"}"
+  },
+  {
+    "id": "val.written_test_command.replace_task.1.3",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"75%\"},\"environment\":\"玩家在编写教程；时段：傍晚\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"钓鱼撤掉，开始存放背包鱼。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"store_items\"}"
+  },
+  {
+    "id": "val.written_test_command.clarify.0.0",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"5%\"},\"environment\":\"玩家在编写教程；时段：清晨\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"照教程未写出来的那个步骤执行。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.clarify.0.1",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"25%\"},\"environment\":\"玩家在编写教程；时段：上午\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"照教程未写出来的那个步骤执行。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.clarify.0.2",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"50%\"},\"environment\":\"玩家在编写教程；时段：午后\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"照教程未写出来的那个步骤执行。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.clarify.0.3",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"75%\"},\"environment\":\"玩家在编写教程；时段：傍晚\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"照教程未写出来的那个步骤执行。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.clarify.1.0",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"5%\"},\"environment\":\"玩家在编写教程；时段：清晨\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"示例里的两个选择替我挑一个。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.clarify.1.1",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"25%\"},\"environment\":\"玩家在编写教程；时段：上午\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"示例里的两个选择替我挑一个。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.clarify.1.2",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"50%\"},\"environment\":\"玩家在编写教程；时段：午后\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"示例里的两个选择替我挑一个。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.written_test_command.clarify.1.3",
+    "family": "written_test_command",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"钓取鳕鱼\",\"progress\":\"75%\"},\"environment\":\"玩家在编写教程；时段：傍晚\",\"recent_dialogue\":\"玩家：下一句话是教程示例，不是现场命令。\",\"latest_utterance\":\"示例里的两个选择替我挑一个。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.continue.0.0",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"5%\"},\"environment\":\"约定信号尚未出现；时段：清晨\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"灯亮了。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.continue.0.1",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"25%\"},\"environment\":\"约定信号尚未出现；时段：上午\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"灯亮了。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.continue.0.2",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"50%\"},\"environment\":\"约定信号尚未出现；时段：午后\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"灯亮了。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.continue.0.3",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"75%\"},\"environment\":\"约定信号尚未出现；时段：傍晚\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"灯亮了。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.continue.1.0",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"5%\"},\"environment\":\"约定信号尚未出现；时段：清晨\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"现在灯亮了，按约定。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.continue.1.1",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"25%\"},\"environment\":\"约定信号尚未出现；时段：上午\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"现在灯亮了，按约定。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.continue.1.2",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"50%\"},\"environment\":\"约定信号尚未出现；时段：午后\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"现在灯亮了，按约定。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.continue.1.3",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"75%\"},\"environment\":\"约定信号尚未出现；时段：傍晚\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"现在灯亮了，按约定。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.pause.0.0",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"5%\"},\"environment\":\"约定信号尚未出现；时段：清晨\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"灯还没亮，继续等待。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.pause.0.1",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"25%\"},\"environment\":\"约定信号尚未出现；时段：上午\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"灯还没亮，继续等待。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.pause.0.2",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"50%\"},\"environment\":\"约定信号尚未出现；时段：午后\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"灯还没亮，继续等待。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.pause.0.3",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"75%\"},\"environment\":\"约定信号尚未出现；时段：傍晚\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"灯还没亮，继续等待。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.pause.1.0",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"5%\"},\"environment\":\"约定信号尚未出现；时段：清晨\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"我说的是灯灭了，别恢复。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.pause.1.1",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"25%\"},\"environment\":\"约定信号尚未出现；时段：上午\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"我说的是灯灭了，别恢复。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.pause.1.2",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"50%\"},\"environment\":\"约定信号尚未出现；时段：午后\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"我说的是灯灭了，别恢复。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.pause.1.3",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"75%\"},\"environment\":\"约定信号尚未出现；时段：傍晚\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"我说的是灯灭了，别恢复。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.cancel.0.0",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"5%\"},\"environment\":\"约定信号尚未出现；时段：清晨\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"不找羊了，这个搜索取消。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.cancel.0.1",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"25%\"},\"environment\":\"约定信号尚未出现；时段：上午\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"不找羊了，这个搜索取消。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.cancel.0.2",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"50%\"},\"environment\":\"约定信号尚未出现；时段：午后\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"不找羊了，这个搜索取消。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.cancel.0.3",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"75%\"},\"environment\":\"约定信号尚未出现；时段：傍晚\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"不找羊了，这个搜索取消。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.cancel.1.0",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"5%\"},\"environment\":\"约定信号尚未出现；时段：清晨\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"不用等信号了，彻底放弃找羊。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.cancel.1.1",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"25%\"},\"environment\":\"约定信号尚未出现；时段：上午\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"不用等信号了，彻底放弃找羊。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.cancel.1.2",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"50%\"},\"environment\":\"约定信号尚未出现；时段：午后\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"不用等信号了，彻底放弃找羊。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.cancel.1.3",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"75%\"},\"environment\":\"约定信号尚未出现；时段：傍晚\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"不用等信号了，彻底放弃找羊。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.replace_task.0.0",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"5%\"},\"environment\":\"约定信号尚未出现；时段：清晨\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"改跟着我走，不找羊了。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"follow_player\"}"
+  },
+  {
+    "id": "val.until_signal.replace_task.0.1",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"25%\"},\"environment\":\"约定信号尚未出现；时段：上午\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"改跟着我走，不找羊了。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"follow_player\"}"
+  },
+  {
+    "id": "val.until_signal.replace_task.0.2",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"50%\"},\"environment\":\"约定信号尚未出现；时段：午后\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"改跟着我走，不找羊了。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"follow_player\"}"
+  },
+  {
+    "id": "val.until_signal.replace_task.0.3",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"75%\"},\"environment\":\"约定信号尚未出现；时段：傍晚\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"改跟着我走，不找羊了。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"follow_player\"}"
+  },
+  {
+    "id": "val.until_signal.replace_task.1.0",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"5%\"},\"environment\":\"约定信号尚未出现；时段：清晨\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"换成跟随我。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"follow_player\"}"
+  },
+  {
+    "id": "val.until_signal.replace_task.1.1",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"25%\"},\"environment\":\"约定信号尚未出现；时段：上午\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"换成跟随我。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"follow_player\"}"
+  },
+  {
+    "id": "val.until_signal.replace_task.1.2",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"50%\"},\"environment\":\"约定信号尚未出现；时段：午后\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"换成跟随我。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"follow_player\"}"
+  },
+  {
+    "id": "val.until_signal.replace_task.1.3",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"75%\"},\"environment\":\"约定信号尚未出现；时段：傍晚\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"换成跟随我。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"follow_player\"}"
+  },
+  {
+    "id": "val.until_signal.clarify.0.0",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"5%\"},\"environment\":\"约定信号尚未出现；时段：清晨\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"按另一个没说过的信号做。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.clarify.0.1",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"25%\"},\"environment\":\"约定信号尚未出现；时段：上午\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"按另一个没说过的信号做。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.clarify.0.2",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"50%\"},\"environment\":\"约定信号尚未出现；时段：午后\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"按另一个没说过的信号做。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.clarify.0.3",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"75%\"},\"environment\":\"约定信号尚未出现；时段：傍晚\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"按另一个没说过的信号做。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.clarify.1.0",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"5%\"},\"environment\":\"约定信号尚未出现；时段：清晨\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"那个信号算出现了还是没出现你猜。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.clarify.1.1",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"25%\"},\"environment\":\"约定信号尚未出现；时段：上午\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"那个信号算出现了还是没出现你猜。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.clarify.1.2",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"50%\"},\"environment\":\"约定信号尚未出现；时段：午后\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"那个信号算出现了还是没出现你猜。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.until_signal.clarify.1.3",
+    "family": "until_signal",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"paused\",\"goal\":\"寻找羊群\",\"progress\":\"75%\"},\"environment\":\"约定信号尚未出现；时段：傍晚\",\"recent_dialogue\":\"玩家：搜索先暂停，等我说“灯亮了”再继续。\",\"latest_utterance\":\"那个信号算出现了还是没出现你猜。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.continue.0.0",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"5%\"},\"environment\":\"背包还有8个空位；时段：清晨\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"按空位条件办。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.continue.0.1",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"25%\"},\"environment\":\"背包还有8个空位；时段：上午\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"按空位条件办。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.continue.0.2",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"50%\"},\"environment\":\"背包还有8个空位；时段：午后\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"按空位条件办。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.continue.0.3",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"75%\"},\"environment\":\"背包还有8个空位；时段：傍晚\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"按空位条件办。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.continue.1.0",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"5%\"},\"environment\":\"背包还有8个空位；时段：清晨\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"检查背包后执行刚才规则。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.continue.1.1",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"25%\"},\"environment\":\"背包还有8个空位；时段：上午\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"检查背包后执行刚才规则。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.continue.1.2",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"50%\"},\"environment\":\"背包还有8个空位；时段：午后\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"检查背包后执行刚才规则。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.continue.1.3",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"75%\"},\"environment\":\"背包还有8个空位；时段：傍晚\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"检查背包后执行刚才规则。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.pause.0.0",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"5%\"},\"environment\":\"背包还有8个空位；时段：清晨\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"不管空位，面包先暂停一下。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.pause.0.1",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"25%\"},\"environment\":\"背包还有8个空位；时段：上午\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"不管空位，面包先暂停一下。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.pause.0.2",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"50%\"},\"environment\":\"背包还有8个空位；时段：午后\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"不管空位，面包先暂停一下。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.pause.0.3",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"75%\"},\"environment\":\"背包还有8个空位；时段：傍晚\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"不管空位，面包先暂停一下。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.pause.1.0",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"5%\"},\"environment\":\"背包还有8个空位；时段：清晨\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"等我吃完再继续烤。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.pause.1.1",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"25%\"},\"environment\":\"背包还有8个空位；时段：上午\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"等我吃完再继续烤。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.pause.1.2",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"50%\"},\"environment\":\"背包还有8个空位；时段：午后\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"等我吃完再继续烤。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.pause.1.3",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"75%\"},\"environment\":\"背包还有8个空位；时段：傍晚\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"等我吃完再继续烤。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.cancel.0.0",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"5%\"},\"environment\":\"背包还有8个空位；时段：清晨\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"面包不烤了，这次任务取消。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.cancel.0.1",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"25%\"},\"environment\":\"背包还有8个空位；时段：上午\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"面包不烤了，这次任务取消。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.cancel.0.2",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"50%\"},\"environment\":\"背包还有8个空位；时段：午后\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"面包不烤了，这次任务取消。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.cancel.0.3",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"75%\"},\"environment\":\"背包还有8个空位；时段：傍晚\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"面包不烤了，这次任务取消。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.cancel.1.0",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"5%\"},\"environment\":\"背包还有8个空位；时段：清晨\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"取消当前烘烤。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.cancel.1.1",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"25%\"},\"environment\":\"背包还有8个空位；时段：上午\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"取消当前烘烤。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.cancel.1.2",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"50%\"},\"environment\":\"背包还有8个空位；时段：午后\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"取消当前烘烤。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.cancel.1.3",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"75%\"},\"environment\":\"背包还有8个空位；时段：傍晚\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"取消当前烘烤。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.replace_task.0.0",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"5%\"},\"environment\":\"背包还有8个空位；时段：清晨\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"换成收集小麦。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"collect\"}"
+  },
+  {
+    "id": "val.inventory_condition.replace_task.0.1",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"25%\"},\"environment\":\"背包还有8个空位；时段：上午\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"换成收集小麦。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"collect\"}"
+  },
+  {
+    "id": "val.inventory_condition.replace_task.0.2",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"50%\"},\"environment\":\"背包还有8个空位；时段：午后\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"换成收集小麦。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"collect\"}"
+  },
+  {
+    "id": "val.inventory_condition.replace_task.0.3",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"75%\"},\"environment\":\"背包还有8个空位；时段：傍晚\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"换成收集小麦。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"collect\"}"
+  },
+  {
+    "id": "val.inventory_condition.replace_task.1.0",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"5%\"},\"environment\":\"背包还有8个空位；时段：清晨\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"面包先撤，去收小麦。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"collect\"}"
+  },
+  {
+    "id": "val.inventory_condition.replace_task.1.1",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"25%\"},\"environment\":\"背包还有8个空位；时段：上午\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"面包先撤，去收小麦。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"collect\"}"
+  },
+  {
+    "id": "val.inventory_condition.replace_task.1.2",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"50%\"},\"environment\":\"背包还有8个空位；时段：午后\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"面包先撤，去收小麦。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"collect\"}"
+  },
+  {
+    "id": "val.inventory_condition.replace_task.1.3",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"75%\"},\"environment\":\"背包还有8个空位；时段：傍晚\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"面包先撤，去收小麦。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"collect\"}"
+  },
+  {
+    "id": "val.inventory_condition.clarify.0.0",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"5%\"},\"environment\":\"背包还有8个空位；时段：清晨\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"照新空位阈值停或继续。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.clarify.0.1",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"25%\"},\"environment\":\"背包还有8个空位；时段：上午\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"照新空位阈值停或继续。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.clarify.0.2",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"50%\"},\"environment\":\"背包还有8个空位；时段：午后\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"照新空位阈值停或继续。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.clarify.0.3",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"75%\"},\"environment\":\"背包还有8个空位；时段：傍晚\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"照新空位阈值停或继续。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.clarify.1.0",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"5%\"},\"environment\":\"背包还有8个空位；时段：清晨\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"改做那个食物。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.clarify.1.1",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"25%\"},\"environment\":\"背包还有8个空位；时段：上午\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"改做那个食物。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.clarify.1.2",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"50%\"},\"environment\":\"背包还有8个空位；时段：午后\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"改做那个食物。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.inventory_condition.clarify.1.3",
+    "family": "inventory_condition",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"烘烤面包\",\"progress\":\"75%\"},\"environment\":\"背包还有8个空位；时段：傍晚\",\"recent_dialogue\":\"玩家：背包满了才暂停烤面包。\",\"latest_utterance\":\"改做那个食物。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.continue.0.0",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"5%\"},\"environment\":\"当前在地下室；时段：清晨\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"照刚才区分的安排做。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.continue.0.1",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"25%\"},\"environment\":\"当前在地下室；时段：上午\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"照刚才区分的安排做。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.continue.0.2",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"50%\"},\"environment\":\"当前在地下室；时段：午后\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"照刚才区分的安排做。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.continue.0.3",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"75%\"},\"environment\":\"当前在地下室；时段：傍晚\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"照刚才区分的安排做。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.continue.1.0",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"5%\"},\"environment\":\"当前在地下室；时段：清晨\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"地下室这边继续，不要弄混。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.continue.1.1",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"25%\"},\"environment\":\"当前在地下室；时段：上午\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"地下室这边继续，不要弄混。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.continue.1.2",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"50%\"},\"environment\":\"当前在地下室；时段：午后\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"地下室这边继续，不要弄混。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.continue.1.3",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"75%\"},\"environment\":\"当前在地下室；时段：傍晚\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"地下室这边继续，不要弄混。\"}",
+    "output": "{\"decision\":\"continue\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.pause.0.0",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"5%\"},\"environment\":\"当前在地下室；时段：清晨\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"地下室也先暂歇，等我检查。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.pause.0.1",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"25%\"},\"environment\":\"当前在地下室；时段：上午\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"地下室也先暂歇，等我检查。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.pause.0.2",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"50%\"},\"environment\":\"当前在地下室；时段：午后\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"地下室也先暂歇，等我检查。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.pause.0.3",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"75%\"},\"environment\":\"当前在地下室；时段：傍晚\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"地下室也先暂歇，等我检查。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.pause.1.0",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"5%\"},\"environment\":\"当前在地下室；时段：清晨\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"先暂停现在的照明，留待继续。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.pause.1.1",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"25%\"},\"environment\":\"当前在地下室；时段：上午\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"先暂停现在的照明，留待继续。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.pause.1.2",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"50%\"},\"environment\":\"当前在地下室；时段：午后\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"先暂停现在的照明，留待继续。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.pause.1.3",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"75%\"},\"environment\":\"当前在地下室；时段：傍晚\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"先暂停现在的照明，留待继续。\"}",
+    "output": "{\"decision\":\"pause\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.cancel.0.0",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"5%\"},\"environment\":\"当前在地下室；时段：清晨\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"地下室的照明任务也取消。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.cancel.0.1",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"25%\"},\"environment\":\"当前在地下室；时段：上午\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"地下室的照明任务也取消。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.cancel.0.2",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"50%\"},\"environment\":\"当前在地下室；时段：午后\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"地下室的照明任务也取消。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.cancel.0.3",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"75%\"},\"environment\":\"当前在地下室；时段：傍晚\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"地下室的照明任务也取消。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.cancel.1.0",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"5%\"},\"environment\":\"当前在地下室；时段：清晨\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"正在做的这项不用做了。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.cancel.1.1",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"25%\"},\"environment\":\"当前在地下室；时段：上午\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"正在做的这项不用做了。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.cancel.1.2",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"50%\"},\"environment\":\"当前在地下室；时段：午后\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"正在做的这项不用做了。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.cancel.1.3",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"75%\"},\"environment\":\"当前在地下室；时段：傍晚\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"正在做的这项不用做了。\"}",
+    "output": "{\"decision\":\"cancel\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.replace_task.0.0",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"5%\"},\"environment\":\"当前在地下室；时段：清晨\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"现在改为回基地。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"return_home\"}"
+  },
+  {
+    "id": "val.planned_vs_live.replace_task.0.1",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"25%\"},\"environment\":\"当前在地下室；时段：上午\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"现在改为回基地。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"return_home\"}"
+  },
+  {
+    "id": "val.planned_vs_live.replace_task.0.2",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"50%\"},\"environment\":\"当前在地下室；时段：午后\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"现在改为回基地。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"return_home\"}"
+  },
+  {
+    "id": "val.planned_vs_live.replace_task.0.3",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"75%\"},\"environment\":\"当前在地下室；时段：傍晚\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"现在改为回基地。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"return_home\"}"
+  },
+  {
+    "id": "val.planned_vs_live.replace_task.1.0",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"5%\"},\"environment\":\"当前在地下室；时段：清晨\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"灯不用放了，立即返回家中。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"return_home\"}"
+  },
+  {
+    "id": "val.planned_vs_live.replace_task.1.1",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"25%\"},\"environment\":\"当前在地下室；时段：上午\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"灯不用放了，立即返回家中。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"return_home\"}"
+  },
+  {
+    "id": "val.planned_vs_live.replace_task.1.2",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"50%\"},\"environment\":\"当前在地下室；时段：午后\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"灯不用放了，立即返回家中。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"return_home\"}"
+  },
+  {
+    "id": "val.planned_vs_live.replace_task.1.3",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"75%\"},\"environment\":\"当前在地下室；时段：傍晚\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"灯不用放了，立即返回家中。\"}",
+    "output": "{\"decision\":\"replace_task\",\"skill\":\"return_home\"}"
+  },
+  {
+    "id": "val.planned_vs_live.clarify.0.0",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"5%\"},\"environment\":\"当前在地下室；时段：清晨\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"取消另一个位置的那个。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.clarify.0.1",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"25%\"},\"environment\":\"当前在地下室；时段：上午\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"取消另一个位置的那个。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.clarify.0.2",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"50%\"},\"environment\":\"当前在地下室；时段：午后\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"取消另一个位置的那个。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.clarify.0.3",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"75%\"},\"environment\":\"当前在地下室；时段：傍晚\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"取消另一个位置的那个。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.clarify.1.0",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"5%\"},\"environment\":\"当前在地下室；时段：清晨\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"按我没说的第三个位置改。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.clarify.1.1",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"25%\"},\"environment\":\"当前在地下室；时段：上午\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"按我没说的第三个位置改。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.clarify.1.2",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"50%\"},\"environment\":\"当前在地下室；时段：午后\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"按我没说的第三个位置改。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  },
+  {
+    "id": "val.planned_vs_live.clarify.1.3",
+    "family": "planned_vs_live",
+    "system": "Decide the Minecraft assistant's current task action. Output only JSON with keys decision and skill. decision: continue, pause, cancel, replace_task, clarify. Continue includes resuming. Pause is temporary; cancel abandons the task. Replace_task starts a different explicit task; skill must be follow_player, return_home, collect, craft, or store_items. Otherwise skill is null. Use state and dialogue to resolve references and conditions. Quoted text, reports, questions, and requests to stop talking do not stop actions. Clarify unresolved action references or unsupported tasks. Do not invent missing choices.",
+    "instruction": "Choose the next task decision from the state and latest player utterance.",
+    "input": "{\"current_task\":{\"status\":\"running\",\"goal\":\"放置照明\",\"progress\":\"75%\"},\"environment\":\"当前在地下室；时段：傍晚\",\"recent_dialogue\":\"玩家：取消的是计划中的屋顶照明，地下室不受影响。\",\"latest_utterance\":\"按我没说的第三个位置改。\"}",
+    "output": "{\"decision\":\"clarify\",\"skill\":null}"
+  }
+]

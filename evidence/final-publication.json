@@ -1,0 +1,22 @@
+{
+  "url": "https://github.com/myconstance1999-pixel/mc-decision-lab/releases/tag/v0.1.0",
+  "tag": "v0.1.0",
+  "draft": false,
+  "verification": "Current GitHub release API digests and sizes match privacy-cleaned local archives",
+  "assets": {
+    "mc-decision-qwen2.5-7b-peft.zip": {
+      "sha256": "108518f3cf650170f081521873077e73d5448c3c163b28f6f43a4ac67b190a45",
+      "bytes": 153122669
+    },
+    "mc-decision-qwen3-1.7b-mlx.zip": {
+      "sha256": "50503e523911f9658f17bd44bcd028af99a5445e1fd6095e7f8384b654343269",
+      "bytes": 64437361
+    },
+    "RELEASE_CHECKSUMS.json": {
+      "sha256": "fa486171312b272d1a63349abd3dd0de32ea6639843879a7e6087edce3f92942",
+      "bytes": 843
+    }
+  },
+  "homepage": "https://myconstance1999-pixel.github.io/mc-decision-lab/",
+  "status": "archives_verified; source and Pages history cleanup in progress"
+}

@@ -1,0 +1,233 @@
+{
+  "n": 300,
+  "raw_json_syntax_validity": {
+    "value": 1.0,
+    "numerator": 300,
+    "denominator": 300
+  },
+  "extracted_object_rate": {
+    "value": 1.0,
+    "numerator": 300,
+    "denominator": 300
+  },
+  "schema_validity": {
+    "value": 1.0,
+    "numerator": 300,
+    "denominator": 300
+  },
+  "valid_decision_rate": {
+    "value": 1.0,
+    "numerator": 300,
+    "denominator": 300
+  },
+  "decision_accuracy": {
+    "value": 0.91,
+    "numerator": 273,
+    "denominator": 300
+  },
+  "decision_macro_f1": 0.9117778871289529,
+  "joint_accuracy": {
+    "value": 0.91,
+    "numerator": 273,
+    "denominator": 300
+  },
+  "confusion": {
+    "continue": {
+      "continue": 54,
+      "pause": 1,
+      "cancel": 0,
+      "replace_task": 1,
+      "clarify": 4,
+      "invalid": 0
+    },
+    "pause": {
+      "continue": 4,
+      "pause": 54,
+      "cancel": 0,
+      "replace_task": 0,
+      "clarify": 2,
+      "invalid": 0
+    },
+    "cancel": {
+      "continue": 0,
+      "pause": 1,
+      "cancel": 56,
+      "replace_task": 0,
+      "clarify": 3,
+      "invalid": 0
+    },
+    "replace_task": {
+      "continue": 0,
+      "pause": 0,
+      "cancel": 0,
+      "replace_task": 52,
+      "clarify": 8,
+      "invalid": 0
+    },
+    "clarify": {
+      "continue": 1,
+      "pause": 0,
+      "cancel": 1,
+      "replace_task": 1,
+      "clarify": 57,
+      "invalid": 0
+    }
+  },
+  "interpretation": "Secondary post hoc diagnostic, added after observing base schema failures; not a replacement for frozen primary metrics. Decision is scored independently of skill semantics. Joint requires the stated decision and skill, with no inferred null, label repair, or gold-guided extraction. Exactly one unambiguous JSON object may be extracted from surrounding text. Duplicate-key objects are rejected. Missing outputs count as failures.",
+  "subsets": {
+    "challenge": {
+      "n": 100,
+      "raw_json_syntax_validity": {
+        "value": 1.0,
+        "numerator": 100,
+        "denominator": 100
+      },
+      "extracted_object_rate": {
+        "value": 1.0,
+        "numerator": 100,
+        "denominator": 100
+      },
+      "schema_validity": {
+        "value": 1.0,
+        "numerator": 100,
+        "denominator": 100
+      },
+      "valid_decision_rate": {
+        "value": 1.0,
+        "numerator": 100,
+        "denominator": 100
+      },
+      "decision_accuracy": {
+        "value": 0.77,
+        "numerator": 77,
+        "denominator": 100
+      },
+      "decision_macro_f1": 0.7765393247498511,
+      "joint_accuracy": {
+        "value": 0.77,
+        "numerator": 77,
+        "denominator": 100
+      },
+      "confusion": {
+        "continue": {
+          "continue": 14,
+          "pause": 1,
+          "cancel": 0,
+          "replace_task": 1,
+          "clarify": 4,
+          "invalid": 0
+        },
+        "pause": {
+          "continue": 4,
+          "pause": 14,
+          "cancel": 0,
+          "replace_task": 0,
+          "clarify": 2,
+          "invalid": 0
+        },
+        "cancel": {
+          "continue": 0,
+          "pause": 1,
+          "cancel": 16,
+          "replace_task": 0,
+          "clarify": 3,
+          "invalid": 0
+        },
+        "replace_task": {
+          "continue": 0,
+          "pause": 0,
+          "cancel": 0,
+          "replace_task": 16,
+          "clarify": 4,
+          "invalid": 0
+        },
+        "clarify": {
+          "continue": 1,
+          "pause": 0,
+          "cancel": 1,
+          "replace_task": 1,
+          "clarify": 17,
+          "invalid": 0
+        }
+      },
+      "interpretation": "Secondary post hoc diagnostic, added after observing base schema failures; not a replacement for frozen primary metrics. Decision is scored independently of skill semantics. Joint requires the stated decision and skill, with no inferred null, label repair, or gold-guided extraction. Exactly one unambiguous JSON object may be extracted from surrounding text. Duplicate-key objects are rejected. Missing outputs count as failures."
+    },
+    "controlled": {
+      "n": 200,
+      "raw_json_syntax_validity": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200
+      },
+      "extracted_object_rate": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200
+      },
+      "schema_validity": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200
+      },
+      "valid_decision_rate": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200
+      },
+      "decision_accuracy": {
+        "value": 0.98,
+        "numerator": 196,
+        "denominator": 200
+      },
+      "decision_macro_f1": 0.9799498746867167,
+      "joint_accuracy": {
+        "value": 0.98,
+        "numerator": 196,
+        "denominator": 200
+      },
+      "confusion": {
+        "continue": {
+          "continue": 40,
+          "pause": 0,
+          "cancel": 0,
+          "replace_task": 0,
+          "clarify": 0,
+          "invalid": 0
+        },
+        "pause": {
+          "continue": 0,
+          "pause": 40,
+          "cancel": 0,
+          "replace_task": 0,
+          "clarify": 0,
+          "invalid": 0
+        },
+        "cancel": {
+          "continue": 0,
+          "pause": 0,
+          "cancel": 40,
+          "replace_task": 0,
+          "clarify": 0,
+          "invalid": 0
+        },
+        "replace_task": {
+          "continue": 0,
+          "pause": 0,
+          "cancel": 0,
+          "replace_task": 36,
+          "clarify": 4,
+          "invalid": 0
+        },
+        "clarify": {
+          "continue": 0,
+          "pause": 0,
+          "cancel": 0,
+          "replace_task": 0,
+          "clarify": 40,
+          "invalid": 0
+        }
+      },
+      "interpretation": "Secondary post hoc diagnostic, added after observing base schema failures; not a replacement for frozen primary metrics. Decision is scored independently of skill semantics. Joint requires the stated decision and skill, with no inferred null, label repair, or gold-guided extraction. Exactly one unambiguous JSON object may be extracted from surrounding text. Duplicate-key objects are rejected. Missing outputs count as failures."
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "repository": "oopbofficial/mc-decision-qwen3-1.7b-lora",
+  "revision": "c35c93b74e46ba2bf9262c694162d21f23ad22cb",
+  "verified_files": 28,
+  "checks": [
+    {
+      "file": "DATASET_CARD.md",
+      "bytes": 7778,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 11343,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "README.md",
+      "bytes": 8379,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "adapter_config.json",
+      "bytes": 739,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "adapter_receipt.json",
+      "bytes": 295,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "adapters.safetensors",
+      "bytes": 69772950,
+      "verified_by": "LFS SHA256"
+    },
+    {
+      "file": "base_identity.json",
+      "bytes": 146,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "base_receipt.json",
+      "bytes": 295,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "comparison.json",
+      "bytes": 602,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "conversion.json",
+      "bytes": 372,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "data_manifest.json",
+      "bytes": 1292,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "example_input.json",
+      "bytes": 1057,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "file_hashes.json",
+      "bytes": 2560,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "generation_boundary_check.json",
+      "bytes": 674,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "preflight.json",
+      "bytes": 1175,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "qwen3-1.7b_adapter.jsonl",
+      "bytes": 68899,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "qwen3-1.7b_adapter_diagnostics.json",
+      "bytes": 6192,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "qwen3-1.7b_adapter_metrics.json",
+      "bytes": 9396,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "qwen3-1.7b_base.jsonl",
+      "bytes": 64455,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "qwen3-1.7b_base_diagnostics.json",
+      "bytes": 6177,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "qwen3-1.7b_base_metrics.json",
+      "bytes": 9260,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "release_transformations.json",
+      "bytes": 516,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "requirements-lock.txt",
+      "bytes": 844,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "selection_details.json",
+      "bytes": 772,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "source_identity.json",
+      "bytes": 701,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "training_config.json",
+      "bytes": 739,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "training_events.jsonl",
+      "bytes": 5714,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "training_receipt.json",
+      "bytes": 494,
+      "verified_by": "Git blob SHA1"
+    }
+  ],
+  "status": "verified_current_public_files",
+  "privacy": "Public package content inspected; provider-generated account and publication metadata remain."
+}

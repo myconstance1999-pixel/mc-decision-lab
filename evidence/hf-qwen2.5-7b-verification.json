@@ -1,0 +1,109 @@
+{
+  "repository": "oopbofficial/mc-decision-qwen2.5-7b-lora",
+  "revision": "5df195e2ee3db46e259afdd228b40ffee22a62be",
+  "verified_files": 20,
+  "checks": [
+    {
+      "file": "DATASET_CARD.md",
+      "bytes": 7778,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "EVALUATION.md",
+      "bytes": 5128,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "README.md",
+      "bytes": 8198,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "RELEASE_MANIFEST.json",
+      "bytes": 1748,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "adapter_config.json",
+      "bytes": 1094,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "adapter_diagnostics.json",
+      "bytes": 6179,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "adapter_metrics.json",
+      "bytes": 9445,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "adapter_model.safetensors",
+      "bytes": 161533192,
+      "verified_by": "LFS SHA256"
+    },
+    {
+      "file": "adapter_predictions.jsonl",
+      "bytes": 68846,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "added_tokens.json",
+      "bytes": 605,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "base_diagnostics.json",
+      "bytes": 6225,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "base_metrics.json",
+      "bytes": 10084,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "base_predictions.jsonl",
+      "bytes": 67854,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "chat_template.jinja",
+      "bytes": 2507,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "merges.txt",
+      "bytes": 1671853,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "provenance.json",
+      "bytes": 3863,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "special_tokens_map.json",
+      "bytes": 613,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "tokenizer.json",
+      "bytes": 11421896,
+      "verified_by": "LFS SHA256"
+    },
+    {
+      "file": "tokenizer_config.json",
+      "bytes": 4713,
+      "verified_by": "Git blob SHA1"
+    },
+    {
+      "file": "vocab.json",
+      "bytes": 2776833,
+      "verified_by": "Git blob SHA1"
+    }
+  ],
+  "status": "verified_current_public_files",
+  "privacy": "Public package content inspected; provider-generated account and publication metadata remain."
+}

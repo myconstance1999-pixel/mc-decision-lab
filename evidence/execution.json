@@ -1,0 +1,71 @@
+{
+  "status": "completed_and_published",
+  "scope": "Offline synthetic Minecraft task-decision adaptation; not a live-game companion",
+  "models": [
+    "Qwen/Qwen3-1.7B",
+    "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "gpu_hour_cap": 7,
+  "training_framework_revision": "47d407d2aabbd52e11d4f34c7a06b9de3e2f0a77",
+  "mc_reference_revision": "f081451960ceebcd7649a3eddbfdccdeba8d4cf6",
+  "completed_training_runs": 2,
+  "public_homepage": "https://myconstance1999-pixel.github.io/mc-decision-lab/",
+  "preflight": {
+    "both_models_passed": true,
+    "cutoff": 512,
+    "test_sha256": "dcce2afe36f5de36434b0210484d24b49b49754bff10ac0f5defc496d981d6b2"
+  },
+  "colab": {
+    "gpu": "NVIDIA L4",
+    "memory_mib": 23034,
+    "python": "3.12.13",
+    "blocker": null,
+    "browser_recovery": "Minimal single-line cell executes in Edge; no settings changed",
+    "baseline_complete": 300,
+    "recovery": "Pinned LlamaFactory JSON parser failed; identical configuration now supplied as YAML.",
+    "training_status": "completed 126 optimizer updates; checkpoint 75 selected by validation loss; both 300-case evaluations complete",
+    "interrupted_attempt": "UI run control accidentally clicked twice; training stopped at 18 updates before any checkpoint. No surviving process observed; partial adapter directory preserved as interrupted-step18; unchanged experiment restarted.",
+    "archive_sha256": "77e24642b3bbf1a2b0fd0b2ae2d13af8a3c0d6919fd39fd4a37e8d4904ad3c20",
+    "adapter_sha256": "e9233df74953f35bab88c2c2f69a10c357c82567d57713b1560ae33f53f9e601",
+    "download": "Colab file-browser Download in Edge; archive and checksum saved locally",
+    "strict_decision_accuracy": {
+      "base": 0.6033333333333334,
+      "adapter": 0.91
+    },
+    "posthoc_decision_only": {
+      "base": 0.72,
+      "adapter": 0.91
+    },
+    "runtime_shutdown": "Confirmed: Colab Active sessions shows No active sessions after completed archive and checksum downloaded and verified.",
+    "published": true,
+    "publication_verification": "20 files matched public Git blob/LFS hashes",
+    "hf_revision": "5df195e2ee3db46e259afdd228b40ffee22a62be"
+  },
+  "local_fallback": {
+    "model": "Qwen/Qwen3-1.7B",
+    "hardware": "Apple M5 Pro, 24 GiB",
+    "backend": "MLX-LM 0.32.2",
+    "status": "published and exact remote file hashes verified",
+    "adapter_sha256": "5c7b078ddb9aa2244638b76d6d6464d544d15729171636f3a41985494c889d41",
+    "strict_decision_accuracy": {
+      "base": 0.01,
+      "adapter": 0.91
+    },
+    "posthoc_decision_only": {
+      "base": 0.33,
+      "adapter": 0.91
+    },
+    "publication_verification": "28 files matched public Git blob/LFS hashes"
+  },
+  "checks": {
+    "cpu_unit_tests": 26,
+    "publication_fixture_tests": 7,
+    "primary_metrics": "Both models recomputed from all300originalrawpredictions;7B exact withPython3.12.13",
+    "live_ui": "Final Edge homepage displays both published links and measured7B primary/diagnostic values; bothselectors verified. Earlier desktop/mobile layout and authored-example interactions passed."
+  },
+  "elapsed_hours": 1.898,
+  "release_url": "https://github.com/myconstance1999-pixel/mc-decision-lab/releases/tag/v0.1.0",
+  "execution_team": "Codex controller with native mc_data, dual_model_feasibility, and mc_page workers; no external DSH worker invoked.",
+  "privacy_note": "Public receipt omits wall-clock timestamps, account balances, billing details, and superseded publication revision locators. Operational durations and scientific results are preserved.",
+  "privacy_revision": "Published metadata redacted; scientific outputs unchanged"
+}

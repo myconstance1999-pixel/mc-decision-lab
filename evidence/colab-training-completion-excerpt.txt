@@ -1,0 +1,19 @@
+Public excerpt: wall-clock timestamps and runtime-root prefixes are omitted; training values are unchanged.
+
+{'eval_loss': 0.059952836483716965, 'eval_runtime': 33.5985, 'eval_samples_per_second': 4.762, 'eval_steps_per_second': 4.762, 'epoch': 0.4}
+{'eval_loss': 0.05584754794836044, 'eval_runtime': 33.6361, 'eval_samples_per_second': 4.757, 'eval_steps_per_second': 4.757, 'epoch': 0.8}
+{'eval_loss': 0.051222432404756546, 'eval_runtime': 33.6244, 'eval_samples_per_second': 4.758, 'eval_steps_per_second': 4.758, 'epoch': 1.19}
+{'eval_loss': 0.05450790002942085, 'eval_runtime': 33.5838, 'eval_samples_per_second': 4.764, 'eval_steps_per_second': 4.764, 'epoch': 1.59}
+100%|██████████| 126/126 [24:48<00:00, 19.41s/it][INFO|trainer.py:4309] >> Saving model checkpoint to runs/qwen2.5-7b/adapter/checkpoint-126
+[INFO|trainer.py:3033] >> Loading best model from runs/qwen2.5-7b/adapter/checkpoint-75 (score: 0.051222432404756546).
+100%|██████████| 126/126 [24:49<00:00, 19.41s/it]
+100%|██████████| 126/126 [24:49<00:00, 11.82s/it]
+{'eval_loss': 0.05512970685958862, 'eval_runtime': 33.6005, 'eval_samples_per_second': 4.762, 'eval_steps_per_second': 4.762, 'epoch': 1.99}
+{'train_runtime': 1489.1388, 'train_samples_per_second': 1.343, 'train_steps_per_second': 0.085, 'train_loss': 0.013964402151205355, 'epoch': 2.0}
+  train_loss               =      0.014
+  train_runtime            = 0:24:49.13
+  train_samples_per_second =      1.343
+  train_steps_per_second   =      0.085
+  eval_loss               =     0.0512
+Starting qwen2.5-7b: adapter
+qwen2.5-7b adapter: 200/300

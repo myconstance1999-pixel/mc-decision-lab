@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv*/
+.cache/
+checkpoints/
+artifacts/
+*.safetensors
+*.bin
+*.pt
+*.zip
+.env
+*_token*
+evidence/local-*
+runs/
+runs_mlx/
+
+# Preserve raw runtime receipts locally; publish sanitized release provenance.
+results/*.meta.json

@@ -1,0 +1,399 @@
+{
+  "n": 300,
+  "families": 25,
+  "decision_accuracy": 0.01,
+  "joint_accuracy": 0.01,
+  "macro_f1": 0.019047619047619046,
+  "strict_json_validity": 0.01,
+  "json_validity": 0.01,
+  "schema_validity": 0.01,
+  "raw_output_coverage": {
+    "value": 1.0,
+    "numerator": 300,
+    "denominator": 300
+  },
+  "strict_json_counts": {
+    "value": 0.01,
+    "numerator": 3,
+    "denominator": 300
+  },
+  "skill_accuracy": 0.05,
+  "skill_accuracy_counts": {
+    "value": 0.05,
+    "numerator": 3,
+    "denominator": 60
+  },
+  "false_cancel_rate": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 240
+  },
+  "missed_cancel_rate": {
+    "value": 1.0,
+    "numerator": 60,
+    "denominator": 60
+  },
+  "decision_accuracy_counts": {
+    "value": 0.01,
+    "numerator": 3,
+    "denominator": 300
+  },
+  "joint_accuracy_counts": {
+    "value": 0.01,
+    "numerator": 3,
+    "denominator": 300
+  },
+  "invalid_or_missing": {
+    "nonreplacement_requires_null_skill": 297
+  },
+  "per_class": {
+    "continue": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 60
+    },
+    "pause": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 60
+    },
+    "cancel": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 60
+    },
+    "replace_task": {
+      "precision": 1.0,
+      "recall": 0.05,
+      "f1": 0.09523809523809523,
+      "support": 60
+    },
+    "clarify": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 60
+    }
+  },
+  "confusion": {
+    "continue": {
+      "continue": 0,
+      "pause": 0,
+      "cancel": 0,
+      "replace_task": 0,
+      "clarify": 0,
+      "invalid": 60
+    },
+    "pause": {
+      "continue": 0,
+      "pause": 0,
+      "cancel": 0,
+      "replace_task": 0,
+      "clarify": 0,
+      "invalid": 60
+    },
+    "cancel": {
+      "continue": 0,
+      "pause": 0,
+      "cancel": 0,
+      "replace_task": 0,
+      "clarify": 0,
+      "invalid": 60
+    },
+    "replace_task": {
+      "continue": 0,
+      "pause": 0,
+      "cancel": 0,
+      "replace_task": 3,
+      "clarify": 0,
+      "invalid": 57
+    },
+    "clarify": {
+      "continue": 0,
+      "pause": 0,
+      "cancel": 0,
+      "replace_task": 0,
+      "clarify": 0,
+      "invalid": 60
+    }
+  },
+  "latency_seconds": {
+    "n": 300,
+    "mean": 0.1354755552688342,
+    "median": 0.1349257914844202,
+    "p95": 0.13778215180500408
+  },
+  "subsets": {
+    "challenge": {
+      "n": 100,
+      "families": 20,
+      "decision_accuracy": 0.01,
+      "joint_accuracy": 0.01,
+      "macro_f1": 0.019047619047619046,
+      "strict_json_validity": 0.01,
+      "json_validity": 0.01,
+      "schema_validity": 0.01,
+      "raw_output_coverage": {
+        "value": 1.0,
+        "numerator": 100,
+        "denominator": 100
+      },
+      "strict_json_counts": {
+        "value": 0.01,
+        "numerator": 1,
+        "denominator": 100
+      },
+      "skill_accuracy": 0.05,
+      "skill_accuracy_counts": {
+        "value": 0.05,
+        "numerator": 1,
+        "denominator": 20
+      },
+      "false_cancel_rate": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 80
+      },
+      "missed_cancel_rate": {
+        "value": 1.0,
+        "numerator": 20,
+        "denominator": 20
+      },
+      "decision_accuracy_counts": {
+        "value": 0.01,
+        "numerator": 1,
+        "denominator": 100
+      },
+      "joint_accuracy_counts": {
+        "value": 0.01,
+        "numerator": 1,
+        "denominator": 100
+      },
+      "invalid_or_missing": {
+        "nonreplacement_requires_null_skill": 99
+      },
+      "per_class": {
+        "continue": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 20
+        },
+        "pause": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 20
+        },
+        "cancel": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 20
+        },
+        "replace_task": {
+          "precision": 1.0,
+          "recall": 0.05,
+          "f1": 0.09523809523809523,
+          "support": 20
+        },
+        "clarify": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 20
+        }
+      },
+      "confusion": {
+        "continue": {
+          "continue": 0,
+          "pause": 0,
+          "cancel": 0,
+          "replace_task": 0,
+          "clarify": 0,
+          "invalid": 20
+        },
+        "pause": {
+          "continue": 0,
+          "pause": 0,
+          "cancel": 0,
+          "replace_task": 0,
+          "clarify": 0,
+          "invalid": 20
+        },
+        "cancel": {
+          "continue": 0,
+          "pause": 0,
+          "cancel": 0,
+          "replace_task": 0,
+          "clarify": 0,
+          "invalid": 20
+        },
+        "replace_task": {
+          "continue": 0,
+          "pause": 0,
+          "cancel": 0,
+          "replace_task": 1,
+          "clarify": 0,
+          "invalid": 19
+        },
+        "clarify": {
+          "continue": 0,
+          "pause": 0,
+          "cancel": 0,
+          "replace_task": 0,
+          "clarify": 0,
+          "invalid": 20
+        }
+      },
+      "latency_seconds": {
+        "n": 100,
+        "mean": 0.13394528544944478,
+        "median": 0.13468470850784797,
+        "p95": 0.1376119559412473
+      }
+    },
+    "controlled": {
+      "n": 200,
+      "families": 5,
+      "decision_accuracy": 0.01,
+      "joint_accuracy": 0.01,
+      "macro_f1": 0.019047619047619046,
+      "strict_json_validity": 0.01,
+      "json_validity": 0.01,
+      "schema_validity": 0.01,
+      "raw_output_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200
+      },
+      "strict_json_counts": {
+        "value": 0.01,
+        "numerator": 2,
+        "denominator": 200
+      },
+      "skill_accuracy": 0.05,
+      "skill_accuracy_counts": {
+        "value": 0.05,
+        "numerator": 2,
+        "denominator": 40
+      },
+      "false_cancel_rate": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 160
+      },
+      "missed_cancel_rate": {
+        "value": 1.0,
+        "numerator": 40,
+        "denominator": 40
+      },
+      "decision_accuracy_counts": {
+        "value": 0.01,
+        "numerator": 2,
+        "denominator": 200
+      },
+      "joint_accuracy_counts": {
+        "value": 0.01,
+        "numerator": 2,
+        "denominator": 200
+      },
+      "invalid_or_missing": {
+        "nonreplacement_requires_null_skill": 198
+      },
+      "per_class": {
+        "continue": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 40
+        },
+        "pause": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 40
+        },
+        "cancel": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 40
+        },
+        "replace_task": {
+          "precision": 1.0,
+          "recall": 0.05,
+          "f1": 0.09523809523809523,
+          "support": 40
+        },
+        "clarify": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 40
+        }
+      },
+      "confusion": {
+        "continue": {
+          "continue": 0,
+          "pause": 0,
+          "cancel": 0,
+          "replace_task": 0,
+          "clarify": 0,
+          "invalid": 40
+        },
+        "pause": {
+          "continue": 0,
+          "pause": 0,
+          "cancel": 0,
+          "replace_task": 0,
+          "clarify": 0,
+          "invalid": 40
+        },
+        "cancel": {
+          "continue": 0,
+          "pause": 0,
+          "cancel": 0,
+          "replace_task": 0,
+          "clarify": 0,
+          "invalid": 40
+        },
+        "replace_task": {
+          "continue": 0,
+          "pause": 0,
+          "cancel": 0,
+          "replace_task": 2,
+          "clarify": 0,
+          "invalid": 38
+        },
+        "clarify": {
+          "continue": 0,
+          "pause": 0,
+          "cancel": 0,
+          "replace_task": 0,
+          "clarify": 0,
+          "invalid": 40
+        }
+      },
+      "latency_seconds": {
+        "n": 200,
+        "mean": 0.13624069017852888,
+        "median": 0.13500016649777535,
+        "p95": 0.1380194086537813
+      }
+    }
+  },
+  "protocol": {
+    "strict_output": "Exactly two JSON keys decision and skill; known labels; null skill except supported replacement; no duplicate keys, fences, or prose.",
+    "missing_predictions": "Counted as invalid and incorrect; never dropped.",
+    "duplicate_or_unknown_ids": "Fatal input error.",
+    "skill_denominator": "All gold replace_task examples, including invalid predictions and wrong decisions.",
+    "false_cancel_denominator": "All gold non-cancel examples.",
+    "missed_cancel_denominator": "All gold cancel examples; invalid/missing predictions count as missed.",
+    "prediction_only": "Allowed for semantic metrics; unavailable raw output fails strict-format compliance (raw_output_coverage is reported).",
+    "decision_macro_f1": "Unweighted mean over all five fixed decisions; invalid outputs contribute false negatives."
+  }
+}
