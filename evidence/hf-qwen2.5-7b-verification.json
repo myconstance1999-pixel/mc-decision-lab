@@ -1,6 +1,6 @@
 {
   "repository": "oopbofficial/mc-decision-qwen2.5-7b-lora",
-  "revision": "5df195e2ee3db46e259afdd228b40ffee22a62be",
+  "revision": "3e8b20b61986715919903184638fbc0708f5666b",
   "verified_files": 20,
   "checks": [
     {
@@ -105,5 +105,15 @@
     }
   ],
   "status": "verified_current_public_files",
+  "history_privacy": {
+    "fresh_repository": true,
+    "prior_revision_resolves": false,
+    "anonymous_checks": {
+      "original_revision": 404,
+      "original_file": 404,
+      "private_archive": 401,
+      "private_copy": 401
+    }
+  },
   "privacy": "Public package content inspected; provider-generated account and publication metadata remain."
 }

@@ -39,7 +39,7 @@
     "runtime_shutdown": "Confirmed: Colab Active sessions shows No active sessions after completed archive and checksum downloaded and verified.",
     "published": true,
     "publication_verification": "20 files matched public Git blob/LFS hashes",
-    "hf_revision": "5df195e2ee3db46e259afdd228b40ffee22a62be"
+    "hf_revision": "3e8b20b61986715919903184638fbc0708f5666b"
   },
   "local_fallback": {
     "model": "Qwen/Qwen3-1.7B",
@@ -61,11 +61,12 @@
     "cpu_unit_tests": 26,
     "publication_fixture_tests": 7,
     "primary_metrics": "Both models recomputed from all300originalrawpredictions;7B exact withPython3.12.13",
-    "live_ui": "Final Edge homepage displays both published links and measured7B primary/diagnostic values; bothselectors verified. Earlier desktop/mobile layout and authored-example interactions passed."
+    "live_ui": "Final Edge homepage displays both published links and measured7B primary/diagnostic values; bothselectors verified. Earlier desktop/mobile layout and authored-example interactions passed.",
+    "privacy_publication_tests": 2
   },
   "elapsed_hours": 1.898,
   "release_url": "https://github.com/myconstance1999-pixel/mc-decision-lab/releases/tag/v0.1.0",
   "execution_team": "Codex controller with native mc_data, dual_model_feasibility, and mc_page workers; no external DSH worker invoked.",
   "privacy_note": "Public receipt omits wall-clock timestamps, account balances, billing details, and superseded publication revision locators. Operational durations and scientific results are preserved.",
-  "privacy_revision": "Published metadata redacted; scientific outputs unchanged"
+  "privacy_revision": "Fresh public source history and 7B model repository; private originals preserved; scientific outputs unchanged"
 }
